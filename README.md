@@ -21,6 +21,7 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 6. [Acknowledgments](#acknowledgments)
 7. [License](#license)
 8. [Contact](#connect-with-me)
+9. [Our Team](https://alexandrbig1.github.io/your-energy-fitness-app/team.html)
 
 ## Introduction
 
