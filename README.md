@@ -79,19 +79,19 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 
 ### Screenshots:
 
-![Your Energy Fitness App](/images/screenshots/energy-home1.jpg) _Caption for Screenshot 1
+![Your Energy Fitness App](/src/public/images/screenshots/energy-home1.jpg) _Caption for Screenshot 1
 (Home Page)_
 
-![Your Energy Fitness App](/images/screenshots/energy-home2.jpg) _Caption for Screenshot 2
+![Your Energy Fitness App](/src/public/images/screenshots/energy-home2.jpg) _Caption for Screenshot 2
 (Home Page Dark Mode)_
 
-![Your Energy Fitness App](/images/screenshots/energy-home3.jpg) _Caption for Screenshot 3
+![Your Energy Fitness App](/src/public/images/screenshots/energy-home3.jpg) _Caption for Screenshot 3
 (Home Page Tablet Screen Dark Mode)_
 
-![Your Energy Fitness App](/images/screenshots/energy-favorites1.jpg) _Caption for Screenshot 4
+![Your Energy Fitness App](/src/public/images/screenshots/energy-favorites1.jpg) _Caption for Screenshot 4
 (Favorites Page)_
 
-![Your Energy Fitness App](/images/screenshots/energy-favorites2.jpg) _Caption for Screenshot 5
+![Your Energy Fitness App](/src/public/images/screenshots/energy-favorites2.jpg) _Caption for Screenshot 5
 (Favorites Page Dark Mode)_
 
 ## Acknowledgments
