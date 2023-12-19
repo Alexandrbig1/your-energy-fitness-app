@@ -1,0 +1,191 @@
+.modalExercise {
+  position: relative;
+  visibility: hidden;
+
+  left: 50%;
+  transform: translate(-50%, 0) scale(0);
+  height: 0;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: var(--plain-white-color);
+  background-color: var(--modal-background);
+  border-radius: 20px;
+  z-index: 500;
+  transition: transform var(--transition-dur-and-func);
+  will-change: transform;
+
+  @media (width < 768px) {
+    max-width: 335px;
+  }
+
+  @media (768px <=width) {
+    width: 704px;
+    display: flex;
+    column-gap: 32px;
+  }
+
+  @media (1440px <=width) {
+    position: absolute;
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    width: 708px;
+  }
+}
+
+.modalExercise .x-button {
+  stroke: var(--plain-white-color);
+}
+
+.modalExercise.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+  height: auto;
+
+  @media (1440px <= width) {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.modalExercise__content {
+  @media (768px <=width) {
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (1440px <=width) {
+    width: 342px;
+  }
+}
+
+.exercise-content {
+  margin-bottom: 40px;
+
+  @media (768px <=width) {
+    margin-bottom: 64px;
+  }
+}
+
+.modalExercise__img-wrapper {
+  height: 258px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  @media (768px <=width) {
+    width: 270px;
+    height: 260px;
+  }
+}
+
+.modalExercise .title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+
+  @media (768px <=width) {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.33;
+  }
+}
+
+.rating {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}
+
+.rating__item {
+  width: 18px;
+  height: 18px;
+}
+
+.icon-svg {
+  width: 18px;
+  height: 18px;
+}
+
+.rating__item.value {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.icon-star_filled,
+.icon-star_stroked {
+  stroke: var(--rating-color-active);
+  fill: transparent;
+}
+
+.icon-star_filled {
+  fill: var(--rating-color-active);
+}
+
+.exercise_details {
+  display: flex;
+  margin-bottom: 20px;
+  border-top: 1px solid var(--rating-color-inactive);
+  border-bottom: 1px solid var(--rating-color-inactive);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+
+  @media (768px <=width) {
+    margin-bottom: 16px;
+  }
+}
+
+.detail-name {
+  margin-bottom: 4px;
+  color: rgba(244, 244, 244, 0.5);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.detail-value {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.286;
+}
+
+.exercise_description {
+  color: rgba(244, 244, 244, 0.5);
+  font-size: 14px;
+  line-height: 1.286;
+}
+
+.modalExercise .button {
+  padding-right: 12px;
+  padding-left: 12px;
+  color: var(--plain-black-color);
+  background-color: var(--plain-white-color);
+}
+
+.modalExercise .button:hover,
+.modalExercise .button:focus {
+  background-color: var(--plain-black-color);
+  color: var(--plain-white-color);
+  border: 1px solid var(--plain-white-color);
+}
+
+.modalExercise .btn-icon {
+  stroke: var(--plain-black-color);
+}
+
+.modalExercise .x-button:hover {
+  stroke: var(--rating-color-active);
+}
+
+.modalExercise .button:hover .btn-icon,
+.modalExercise .button:focus .btn-icon {
+  stroke: var(--plain-white-color);
+}

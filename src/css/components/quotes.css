@@ -1,0 +1,246 @@
+.quotes__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (768px<=width) {
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  @media (1440px<=width) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+.quotes__container {
+  background-color: var(--primary-black-color);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 336px;
+  display: flex;
+  gap: 16px;
+
+  @media (768px<=width) {
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  @media (1440px<=width) {
+    width: 100%;
+    max-width: 444px;
+  }
+}
+
+.quotes__icon_wrapper {
+  background-color: var(--primary-black-color);
+  border-radius: 50%;
+  width: 34px;
+  height: 32px;
+  fill: var(--primary-background-color);
+  background-color: var(--secondary-white-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.quotes__logo_icon {
+  width: 100%;
+  height: 100%;
+}
+
+.quotes__text_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%
+}
+
+.quotes__title_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.quotes__title {
+  color: var(--primary-background-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 2px;
+
+  @media (768px<=width) {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+}
+
+.quotes__quote_icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-background-color);
+
+  @media (768px<=width) {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.quotes__text {
+  color: var(--white-text-opacity-sixty-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  margin-bottom: 8px;
+
+  @media (768px<=width) {
+    margin-bottom: 2px;
+  }
+}
+
+.quotes__author {
+  color: var(--primary-background-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+
+  @media (768px<=width) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.quotes__img {
+  width: 100%;
+  max-width: 336px;
+  height: auto;
+
+  @media (768px<=width) {
+    width: 100%;
+    max-width: 288px;
+  }
+
+  @media (1440px<=width) {
+    width: 100%;
+    max-width: 444px;
+  }
+}
+
+.quotes__img_img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.quotes__workout_container {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 336px;
+  display: flex;
+  gap: 16px;
+
+  @media (768px<=width) {
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 16px;
+  }
+
+  @media (1440px<=width) {
+    width: 100%;
+    max-width: 444px;
+    margin-top: 0;
+  }
+}
+
+.quotes__gym_icon_wrapper {
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--primary-background-color);
+}
+
+.quotes__gym_icon {
+  width: 100%;
+  height: 100%;
+}
+
+.quotes__workout_text_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+
+  @media (768px<=width) {
+    gap: 20px;
+  }
+}
+
+.quotes__workout_title_Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.quotes__workout_title {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 20px;
+  line-height: 1;
+
+  @media (768px<=width) {
+    font-size: 24px;
+    line-height: 1.33;
+  }
+}
+
+.quotes__workout_sub {
+  color: var(--black-text-opacity-sixty-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.quotes__workout_text {
+  color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+
+  @media (1440px<=width) {
+    overflow: unset;
+    text-overflow: unset;
+    display: unset;
+    -webkit-box-orient: unset;
+    -webkit-line-clamp: unset;
+  }
+}

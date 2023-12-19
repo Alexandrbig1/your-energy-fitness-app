@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Vite
+.vite/
+
+# Firebase
+firebase.json
+firebase-debug.log
+public/firebase-messaging-sw.js
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Utilities and dependencies
+/.cache/
+/.eslintcache
+/.npm/
+/*.log
+/yarn-error.log
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase Functions
+/functions/node_modules/
+/functions/lib/
+/functions/.env
+
+# Ignore Firebase Emulator UI
+.emulator-ui
+
+# Ignore Firebase service account key files
+*.pem
+

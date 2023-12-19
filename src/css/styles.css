@@ -1,0 +1,30 @@
+@import url('./utils/normalize.css');
+/* utils */
+@import url('./utils/variables.css');
+@import url('./utils/fonts.css');
+@import url('./utils/reset.css');
+@import url('./utils/common.css');
+@import url('./utils/container.css');
+@import url('./utils/loader.css');
+
+/* layout */
+@import url('./layout/header.css');
+@import url('./layout/footer.css');
+
+/* components */
+@import url('./components/modal.css');
+@import url('./components/auth-modal.css');
+@import url('./components/exercise-modal.css');
+@import url('./components/scrollup.css');
+@import url('./components/hero.css');
+@import url('./components/quotes.css');
+@import url('./components/favorites-quotes.css');
+@import url('./components/mobileMenu.css');
+@import url('./components/filters.css');
+@import url('./components/team.css');
+
+@import url('./components/button.css');
+@import url('./components/exercises-cards.css');
+@import url('./components/favorite-cards.css');
+@import url('./components/rating-modal.css');
+@import url('utils/skeleton-exercises.css');

@@ -1,0 +1,91 @@
+.card {
+  display: block;
+  margin: 0 auto;
+  height: 225px;
+  width: 335px;
+  position: relative;
+  background-color: var(--loader-highlight-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+
+  @media (width >=768px) and (width < 1440px) {
+    width: 225px;
+  }
+
+  @media (width >=1440px) {
+    height: 242px;
+    width: 290px;
+  }
+}
+
+.skeleton-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(90deg, var(--loader-background-color) 25%, var(--loader-highlight-color) 50%, var(--loader-background-color) 75%);
+  background-size: 200% 100%;
+  animation: loading 2s infinite ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.cover-image-skeleton {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--loader-background-color) 25%, var(--loader-highlight-color) 50%, var(--loader-background-color) 75%);
+  background-size: 200% 100%;
+  animation: loading 2s infinite ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.workouts__skeleton-loader {
+  width: 335px;
+  height: 130px;
+
+
+  @media (width >=768px) and (width < 1440px) {
+    width: 344px;
+    height: 141px;
+  }
+
+  @media (width >=1440px) {
+    width: 442px;
+    height: 141px;
+  }
+
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.favorite-cards__wrapper .workouts__skeleton-loader {
+  @media (width >=1440px) {
+    width: 405px;
+    height: 141px;
+  }
+}
+
+.svg-container {
+  background: linear-gradient(90deg, var(--loader-background-color) 25%, var(--loader-highlight-color) 50%, var(--loader-background-color) 75%);
+  background-size: 200% 100%;
+  animation: loading 2s infinite ease-in-out;
+}
+
+linearGradient stop {
+  stop-color: var(--loader-highlight-color);
+  ;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}

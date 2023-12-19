@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Your Energy" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your Energy - A feature-rich fitness app for personalized workouts and daily motivation."
+    />
+    <meta
+      name="keywords"
+      content="fitness, workout, exercises, health, wellness, Your Energy"
+    />
+    <meta name="author" content="Seventh Sense Team" />
+
+    <title>Your Energy | Home</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="content-wrapper hide">
+      <load ="partials/mobileMenu.html" />
+      <load ="partials/header.html" />
+
+      <main>
+        <load ="partials/hero.html" />
+
+        <section class="exercises">
+          <div class="container">
+            <load ="partials/filters.html" />
+            <div class="exercises__wrapper">
+              <load ="partials/exercises-cards.html" />
+              <load ="partials/quotes.html" />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <load ="partials/footer.html" />
+      <load ="partials/scrollup.html" />
+      <div class="backdrop">
+        <load ="partials/exercise-modal.html" />
+        <load ="partials/auth-modal.html" />
+        <load ="partials/rating-modal.html" />
+      </div>
+    </div>
+    <load ="partials/loader.html" />
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

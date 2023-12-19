@@ -1,0 +1,77 @@
+<aside class="favorites__quotes__wrapper">
+  <div class="favorites__quotes__container">
+    <div class="favorites__quotes__icon_wrapper">
+      <svg class="favorites__quotes__logo_icon" aria-label="running icon">
+        <use href="/images/icons-sprite.svg#icon-running-stick"></use>
+      </svg>
+    </div>
+    <div class="favorites__quotes__text_wrapper">
+      <div class="favorites__quotes__title_wrapper">
+        <h3 class="favorites__quotes__title">Quote of the day</h3>
+        <svg class="favorites__quotes__quote_icon">
+          <use
+            href="/images/icons-sprite.svg#icon-quotes"
+            aria-label="quotes-icon"
+          ></use>
+        </svg>
+      </div>
+      <div class="favorites__quotes__text_wrapper">
+        <p class="favorites__quotes__text" id="daily-quote"></p>
+        <span class="favorites__quotes__author" id="quote-author"></span>
+      </div>
+    </div>
+  </div>
+  <div class="favorites__quotes_img_wrapper">
+    <div class="favorites__quotes__workout_container">
+      <div class="favorites__quotes__gym_icon_wrapper">
+        <svg class="favorites__quotes__gym_icon" aria-label="running icon">
+          <use href="/images/icons-sprite.svg#icon-dumbbell"></use>
+        </svg>
+      </div>
+      <div class="favorites__quotes__workout_text_wrapper">
+        <div class="favorites__quotes__workout_title_wrapper">
+          <h3 class="favorites__quotes__workout_title">110 min</h3>
+          <span class="favorites__quotes__workout_sub"
+            >Daily norm of sports</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="favorites__quotes__img">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          height="242"
+          srcset="
+            /images/favorites/women-outdoors.jpg    1x,
+            /images/favorites/women-outdoors@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          height="258"
+          srcset="
+            /images/favorites/women-outdoors-tab.jpg    1x,
+            /images/favorites/women-outdoors-tab@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            /images/favorites/women-outdoors-mob.jpg    1x,
+            /images/favorites/women-outdoors-mob@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <img
+          class="favorites__quotes__img_img"
+          src="/images/favorites/women-outdoors-mob.jpg"
+          alt="girls drinking water during workout"
+          height="242"
+        />
+      </picture>
+    </div>
+  </div>
+</aside>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your Energy - A feature-rich fitness app for personalized workouts and daily motivation."
+    />
+    <meta
+      name="keywords"
+      content="fitness, workout, exercises, health, wellness, Your Energy"
+    />
+    <meta name="author" content="Seventh Sense Team" />
+    <title>Your Energy | Favorites</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div class="content-wrapper hide">
+      <load ="partials/header.html" />
+      <load ="partials/mobileMenu.html" />
+
+      <main>
+        <section class="favorites">
+          <div class="container">
+            <h1 class="favorites__head1">Favorites</h1>
+            <div class="favorites__exercises__wrapper">
+              <load ="partials/favorites-quotes.html" />
+              <div class="favorites_empty__wrapper">
+                <load ="partials/exercises-cards.html" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="backdrop">
+        <load ="partials/exercise-modal.html" />
+        <load ="partials/auth-modal.html" />
+      </div>
+
+      <load ="partials/rating-modal.html" />
+    </div>
+    <load ="partials/loader.html" />
+
+    <script type="module" src="./favorites.js"></script>
+  </body>
+</html>

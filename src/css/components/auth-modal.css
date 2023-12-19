@@ -1,0 +1,221 @@
+.authModal__content {
+  position: relative;
+  visibility: hidden;
+
+  left: 50%;
+  transform: translate(-50%, 0) scale(0);
+  max-width: 450px;
+  height: 0;
+
+  border: 1px solid #888;
+  border-radius: 28px;
+  padding: 40px;
+  color: var(--secondary-black-text-color);
+  background-color: var(--primary-white-color);
+
+  transition: transform var(--transition-dur-and-func);
+
+  @media (1440px <=width) {
+    position: absolute;
+    width: 450px;
+    top: 50%;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.authModal__content.open {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0) scale(1);
+  height: auto;
+
+  @media (1440px <= width) {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.authForm__title {
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.3;
+  font-feature-settings: 'clig' off, 'liga' off;
+  color: var(--primary-black-color);
+}
+
+.authModal__button-close {
+  color: var(--primary-black-color);
+  cursor: pointer;
+}
+
+.authModal__button-close:hover,
+.authModal__button-close:focus {
+  color: var(--secondary-white-text-color);
+}
+
+.authForm label {
+  font-size: 14px;
+  margin-bottom: 4px;
+  line-height: 1.5;
+  font-feature-settings: 'clig' off, 'liga' off;
+  color: var(--primary-black-color);
+}
+
+.authForm input {
+  width: 100%;
+  border-radius: 15px;
+  padding: 14px;
+  font-size: 14px;
+  border: 1px solid var(--primary-black-color);
+  box-sizing: border-box;
+  background-color: transparent;
+  color: var(--primary-black-color);
+  outline: none;
+  transition-property: border;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+}
+
+.authForm input:hover,
+.authForm input:focus,
+.authForm input:active {
+  border: 1px solid var(--rating-color-active);
+}
+
+.authForm__button-submit {
+  margin: 20px 0 0 0;
+  color: var(--primary-white-color);
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  background: var(--primary-black-color);
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 12px;
+  border-radius: 30px;
+  opacity: 1;
+  transition: opacity var(--transition-time) var(--transition-effect);
+}
+
+.authForm__button-submit:hover {
+  opacity: 0.8;
+}
+
+.authForm__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 16px;
+}
+
+.authForm__fieldset.username {
+  display: flex;
+}
+
+.authForm__fieldset.username.hidden {
+  display: none;
+}
+
+.action__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.action__text {
+  color: var(--primary-black-color);
+  margin-right: 10px;
+  font-weight: 500;
+  line-height: 1.29;
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+.action__button {
+  color: var(--rating-color-active);
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 1.29;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity var(--transition-time) var(--transition-effect);
+}
+
+.action__button:hover {
+  opacity: 0.8;
+}
+
+/* HEADER */
+
+.header_main_nav {
+  display: none;
+}
+
+.header_main_nav.visible {
+  display: flex;
+  gap: 28px;
+}
+
+/* @media only screen and (min-width: 1200px) {
+  .header_main_nav.visible {
+    gap: 0;
+    align-items: center;
+  }
+} */
+
+.header__user.open .header_main_nav {
+  flex-direction: column;
+}
+
+.header__user.open {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.button-logout {
+  margin-left: 30px;
+  display: none;
+}
+
+.button-logout.visible {
+  display: block;
+  background-color: var(--primary-black-color);
+  color: var(--primary-white-color);
+  border: none;
+  border-radius: 110px;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity var(--transition-time) var(--transition-effect);
+}
+
+.button-logout.visible:hover {
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none;
+}
+
+.auth-modal__form__message {
+  font-family: var(--primary-fontfont-family);
+  color: var(--rating-color-active);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.authForm__button-submit:disabled {
+  cursor: not-allowed;
+}

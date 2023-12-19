@@ -1,0 +1,45 @@
+.scrollup__btn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 20px;
+  background-color: var(--background-color);
+  font-size: 0px;
+  border: 1px solid var(--secondary-white-text-color);
+  transition-property: border-color background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+
+  @media (1440px<=width) {
+    bottom: 24px;
+    right: 24px;
+    border-radius: 25px;
+  }
+}
+
+.scrollup__btn:hover,
+.scrollup__btn:focus {
+  border-color: var(--rating-color-active);
+  background-color: var(--primary-black-color);
+}
+
+.scrollup__btn:hover .scrollup__btn__icon,
+.scrollup__btn:focus .scrollup__btn__icon {
+  fill: var(--rating-color-active);
+}
+
+.scrollup__btn__icon {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  fill: var(--primary-background-color);
+  transition-property: fill;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+
+  @media (1440px<=width) {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+}

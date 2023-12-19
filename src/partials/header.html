@@ -1,0 +1,91 @@
+<header class="header container">
+  <div class="header-logo-container">
+    <a href="./index.html" aria-label="Your Energy">
+      <span class="logo--visually-hidden">Your Energy</span>
+      <svg class="header-logo" width="132" height="24" aria-label="Your Energy">
+        <use href="/images/icons-sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+  </div>
+  <!--Start Desktop Nav -->
+  <nav class="header__nav">
+    <ul class="header__nav__list">
+      <li class="header__nav__item active">
+        <a class="header__nav__link active" id="home" href="./index.html"
+          >Home</a
+        >
+      </li>
+      <div class="header__nav-authorized">
+        <li class="header__nav__item">
+          <a class="header__nav__link" id="favorites" href="./favorites.html"
+            >Favorites</a
+          >
+        </li>
+        <li class="header__nav__item">
+          <button class="header__logout_btn" type="button">Log out</button>
+        </li>
+      </div>
+      <li class="header__nav__item auth">
+        <button class="header__auth_btn">Log in</button>
+      </li>
+    </ul>
+  </nav>
+
+  <ul class="header__social__list">
+    <li>
+      <a
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Facebook icon">
+          <use href="/images/icons-sprite.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Instagram icon">
+          <use href="/images/icons-sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Youtube icon">
+          <use href="/images/icons-sprite.svg#icon-youtube"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <div class="toggle-switch">
+        <span>
+          <label class="switch" aria-label="theme switch">
+            <input class="theme-switch" type="checkbox" />
+            <svg class="switch-icon-moon">
+              <use href="/images/icons-sprite.svg#icon-moon"></use>
+            </svg>
+            <svg class="switch-icon-sun">
+              <use href="/images/icons-sprite.svg#icon-switcher-sun"></use>
+            </svg>
+          </label>
+        </span>
+      </div>
+    </li>
+  </ul>
+  <!-- End Desktop Nav -->
+  <!-- Start Mobile Nav -->
+  <div id="MobileBTN" data-mobile-menu-btn class="header__mobil__btn">
+    <div class="bar-top"></div>
+    <div class="bar-middle"></div>
+    <div class="bar-bottom"></div>
+  </div>
+</header>

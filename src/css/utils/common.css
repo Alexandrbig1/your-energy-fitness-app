@@ -1,0 +1,175 @@
+body {
+  color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  background-color: var(--primary-white-color);
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-black-color);
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--primary-white-color);
+}
+
+.visually-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.logo--visually-hidden {
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -40px;
+}
+
+.base-textarea {
+  color: var(--secondary-white-text-color);
+  background-color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 12px 14px;
+  border-radius: 15px;
+  resize: none;
+  outline: none;
+  border: 1px solid var(--primary-background-color);
+  transition-property: border-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+
+  @media (768px<=width) {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+.base-input {
+  color: var(--secondary-white-text-color);
+  background-color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 12px 14px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid var(--primary-background-color);
+  transition-property: border-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+
+  @media (768px<=width) {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+.base-submit {
+  /* color: var(--secondary-black-text-color); */
+  color: var(--primary-white-color);
+  background-color: var(--primary-black-color);
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 12px 14px;
+  border-radius: 30px;
+  border: 1px solid var(--primary-white-color);
+  transition-property: color, background-color;
+  transition-duration: var(--transition-time);
+  transition-timing-function: var(--transition-effect);
+  cursor: pointer;
+
+  @media (768px<=width) {
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
+.validate-form-message {
+  font-family: var(--primary-fontfont-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+.validate-form-message_warning {
+  color: var(--rating-color-active);
+}
+
+.validate-form-message_ok {
+  color: rgb(30, 180, 30);
+}
+
+.base-submit:disabled,
+.base-submit:hover:disabled,
+.base-submit:focus:disabled {
+  color: var(--secondary-white-text-color);
+  background-color: var(--primary-black-color);
+  border: 1px solid var(--secondary-white-text-color);
+  cursor: default;
+}
+
+.base-submit:hover,
+.base-submit:focus {
+  color: var(--primary-black-color);
+  background-color: var(--primary-white-color);
+}
+
+.base-textarea:hover,
+.base-textarea:focus,
+.base-input:hover,
+.base-input:focus {
+  border-color: var(--rating-color-active);
+}
+
+.base-textarea:-webkit-autofill,
+.base-textarea:-webkit-autofill:hover,
+.base-textarea:-webkit-autofill:focus,
+.base-input:-webkit-autofill,
+.base-input:-webkit-autofill:hover,
+.base-input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--secondary-white-text-color);
+  -webkit-box-shadow: 0 0 0px 1000px var(--primary-black-color) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--primary-white-color);
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: inset 0 0 20px 20px var(--secondary-black-text-color);
+}
+
+a,
+button {
+  cursor: pointer;
+}

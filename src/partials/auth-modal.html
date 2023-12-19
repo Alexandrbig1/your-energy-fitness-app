@@ -1,0 +1,53 @@
+<div class="authModal__content">
+  <svg class="authModal__button-close x-button">
+    <use href="/images/icons-sprite.svg#icon-cross"></use>
+  </svg>
+  <p class="authForm__title">Registration</p>
+  <form class="authForm" novalidate>
+    <div class="authForm__fieldset username">
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" />
+      <p class="auth-modal__form__message js__auth-modal__name__message hidden">
+        ⚠️ Name must contain at least 3 letters
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required />
+      <p
+        class="auth-modal__form__message js__auth-modal__email__message hidden"
+      >
+        ⚠️ Email has wrong format
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="password"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        autocomplete="xxxxxx"
+      />
+      <p
+        class="auth-modal__form__message js__auth-modal__password__message hidden"
+      >
+        ⚠️ Password must contain at least 6 letters
+      </p>
+    </div>
+
+    <button
+      class="authForm__button-submit"
+      name="regSubmitBtn"
+      type="submit"
+      disabled
+    >
+      Submit
+    </button>
+  </form>
+  <div class="action__container">
+    <p class="action__text">Already have account?</p>
+    <button class="action__button" data-action="reg">Log in</button>
+  </div>
+</div>

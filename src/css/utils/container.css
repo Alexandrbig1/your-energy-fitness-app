@@ -1,0 +1,129 @@
+/* main container */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+
+  @media (375px<=width) {
+    max-width: var(--mobile);
+  }
+
+  @media (768px<=width) {
+    max-width: var(--tablet);
+    padding: 0 32px;
+  }
+
+  @media (1440px<=width) {
+    max-width: var(--desktop);
+  }
+}
+
+/* sections */
+.hero {
+  padding-top: 80px;
+
+  @media (768px<=width) {
+    padding-top: 100px;
+  }
+}
+
+.exercises {
+  padding: 40px 0 80px;
+
+  @media (768px<=width) {
+    padding: 64px 0 100px;
+  }
+
+  @media (1440px<=width) {
+    padding-bottom: 132px;
+  }
+}
+
+.favorites {
+  @media (width < 768px) {
+    padding: 84px 20px 80px 20px;
+  }
+
+  @media (width >=768px) and (width < 1440px) {
+    padding: 100px 32px 100px 32px;
+  }
+
+  @media (width >=1440px) {
+    padding: 90px 32px 63px 32px;
+  }
+}
+
+
+/* additional containers */
+.filters__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+
+  @media (768px<=width) {
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  @media (1440px<=width) {
+    gap: unset;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.exercises__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  @media (768px<=width) {
+    gap: 64px;
+  }
+
+  @media (1440px<=width) {
+    flex-direction: row-reverse;
+    gap: 32px;
+  }
+}
+
+.favorites__exercises__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  @media (768px<=width) {
+    gap: 64px;
+  }
+
+  @media (1440px<=width) {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
+.favorites_empty__wrapper {
+  width: 100%;
+}
+
+.exercise-cards__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 180px;
+  height: 100%;
+}
+
+
+section {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: opacity 500ms var(--transition-effect);
+}
+
+section.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
