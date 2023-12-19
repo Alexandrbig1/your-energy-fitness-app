@@ -97,6 +97,8 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 ## Acknowledgments
 
 The development of "Your Energy" wouldn't have been possible without the dedicated efforts of the Seventh Sense team. We extend our heartfelt appreciation to each team member for their hard work, creativity, and commitment to making this project a success.
+Explore the individuals behind the scenes in our [Our Team](https://alexandrbig1.github.io/your-energy-fitness-app/team.html)
+ section, where you'll find detailed information about each team member. Their hard work and commitment have been instrumental in the success of this project.
 
 ## Issues
 
