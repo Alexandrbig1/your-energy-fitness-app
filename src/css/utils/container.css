@@ -88,21 +88,6 @@
   }
 }
 
-.favorites__exercises__wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-
-  @media (768px<=width) {
-    gap: 64px;
-  }
-
-  @media (1440px<=width) {
-    flex-direction: row;
-    gap: 32px;
-  }
-}
-
 .favorites_empty__wrapper {
   width: 100%;
 }
@@ -126,4 +111,19 @@ section {
 section.appear {
   opacity: 1;
   transform: translateY(0);
+}
+
+.favorites__exercises__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  @media (768px<=width) {
+    gap: 64px;
+  }
+
+  @media (1440px<=width) {
+    flex-direction: row;
+    gap: 32px;
+  }
 }
