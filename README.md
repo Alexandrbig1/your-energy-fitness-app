@@ -61,13 +61,6 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 - **Newsletter Subscription:**
   - Subscribe to the newsletter for updates on fitness trends.
 
-## Built With
-
-- ![Alt text](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
-- ![Alt text](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
-- ![Alt text](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
-- ![Alt text](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
-
 ## Usage
 
 - Explore different exercises, search by body part, and rate exercises.
@@ -76,11 +69,11 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 
 ## Technologies
 
-- HTML
-- CSS
-- JavaScript
-- Vite
-- Firebase
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+- ![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+- ![CSS](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
+- ![Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=Firebase&logoColor=black)
 
 ## Project Preview
 
