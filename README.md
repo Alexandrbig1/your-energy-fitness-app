@@ -16,7 +16,7 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Usage](#usage)
-4. [Technologies Used](#technologies-used)
+4. [Technologies](#technologies)
 5. [Screenshots](#screenshots)
 6. [Acknowledgments](#acknowledgments)
 7. [License](#license)
