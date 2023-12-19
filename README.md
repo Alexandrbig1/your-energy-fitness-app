@@ -7,9 +7,9 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 [![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
 [![GitHub license](https://img.shields.io/github/license/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/blob/main/LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![Vite](https://img.shields.io/badge/Vite-2.7.0-green)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.10-green)](https://vitejs.dev/)
 
 ## Table of Contents
 
