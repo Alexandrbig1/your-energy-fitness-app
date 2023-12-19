@@ -150,5 +150,3 @@ functionality and user experience.
 <img src=https://img.shields.io/badge/behance-%23191919.svg?&style=for-the-badge&logo=behance&logoColor=white alt=behance style="margin-bottom: 5px;" />
 </a>
 </div>
-# your-energy-fitness-app
-# your-energy-fitness-app
