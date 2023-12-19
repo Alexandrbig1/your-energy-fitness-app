@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Team | Your Energy</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script type="module" crossorigin src="/your-energy-fitness-app/assets/team-d146aa83.js"></script>
+  <link rel="modulepreload" crossorigin href="/your-energy-fitness-app/assets/index-6ff01ee8.js">
+  <link rel="modulepreload" crossorigin href="/your-energy-fitness-app/assets/index-11f35aee.js">
+  <link rel="stylesheet" href="/your-energy-fitness-app/assets/index-f552d47c.css">
+</head>
+
+<body>
+  <div class='loader'>
+  <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="loader__wrap">
+    <div class="wheel"></div>
+    <div class="hamster">
+      <div class="hamster__body">
+        <div class="hamster__head">
+          <div class="hamster__ear"></div>
+          <div class="hamster__eye"></div>
+          <div class="hamster__nose"></div>
+        </div>
+        <div class="hamster__limb hamster__limb--fr"></div>
+        <div class="hamster__limb hamster__limb--fl"></div>
+        <div class="hamster__limb hamster__limb--br"></div>
+        <div class="hamster__limb hamster__limb--bl"></div>
+        <div class="hamster__tail"></div>
+      </div>
+    </div>
+    <div class="spoke"></div>
+  </div>
+</div>
+  <div class='content-wrapper hide'>
+    <header class="header container">
+  <div class="header-logo-container">
+    <a href="./index.html" aria-label="Your Energy">
+      <span class="logo--visually-hidden">Your Energy</span>
+      <svg class="header-logo" width="132" height="24" aria-label="Your Energy">
+        <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+  </div>
+  <!--Start Desktop Nav -->
+  <nav class="header__nav">
+    <ul class="header__nav__list">
+      <li class="header__nav__item active">
+        <a class="header__nav__link active" id="home" href="./index.html"
+          >Home</a
+        >
+      </li>
+      <div class="header__nav-authorized">
+        <li class="header__nav__item">
+          <a class="header__nav__link" id="favorites" href="./favorites.html"
+            >Favorites</a
+          >
+        </li>
+        <li class="header__nav__item">
+          <button class="header__logout_btn" type="button">Log out</button>
+        </li>
+      </div>
+      <li class="header__nav__item auth">
+        <button class="header__auth_btn">Log in</button>
+      </li>
+    </ul>
+  </nav>
+
+  <ul class="header__social__list">
+    <li>
+      <a
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Facebook icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Instagram icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Youtube icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <div class="toggle-switch">
+        <span>
+          <label class="switch" aria-label="theme switch">
+            <input class="theme-switch" type="checkbox" />
+            <svg class="switch-icon-moon">
+              <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-moon"></use>
+            </svg>
+            <svg class="switch-icon-sun">
+              <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-switcher-sun"></use>
+            </svg>
+          </label>
+        </span>
+      </div>
+    </li>
+  </ul>
+  <!-- End Desktop Nav -->
+  <!-- Start Mobile Nav -->
+  <div id="MobileBTN" data-mobile-menu-btn class="header__mobil__btn">
+    <div class="bar-top"></div>
+    <div class="bar-middle"></div>
+    <div class="bar-bottom"></div>
+  </div>
+</header>
+
+    <div class="backdrop-mobile is-hidden" data-mobile-menu>
+  <div data-mobile-menu-content class="mobile__menu">
+    <div></div>
+    <nav class="mobile__nav">
+      <ul class="mobile__nav__list">
+        <li class="header__nav__item active">
+          <a class="header__nav__link active" id="home" href="./index.html">Home</a>
+        </li>
+        <div class="header__nav-authorized">
+          <li class="header__nav__item">
+            <a class="header__nav__link" id="favorites" href="./favorites.html">Favorites</a>
+          </li>
+          <li class="header__nav__item">
+            <button class="header__logout_btn" type="button">Log out</button>
+          </li>
+        </div>
+        <li data-login-btn class="header__nav__item auth">
+          <button class="header__auth_btn">Log in</button>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="mobile__menu__social__list">
+      <li>
+        <a href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Facebook icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Instagram icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Youtube icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+    <main>
+      <!-- ENOENT: no such file or directory, open '/Users/alexandrsmagin/Desktop/vscode/your-energy-fitness-app/src/partials/modal.html' -->
+      <section class="section team__section appear">
+  <div class="container team__wrapper">
+    <div class="team__wrapper">
+      <h1 class="team__title">Meet our team</h1>
+      <p class="team__subtile">
+        Welcome to the Your Energy team project page! This website project aims
+        to keep your body in fit.
+      </p>
+      <ul class="team__list"></ul>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="page__footer">
+  <div class="container footer__box">
+    <div class="footer__content__box">
+      <div>
+        <a class="footer__logo" href="index.html">
+          <svg class="footer__logo__icon" aria-label="Logo icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <ul class="footer__social__list">
+          <li>
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Facebook icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Instagram icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Youtube icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_form__box">
+        <h2 class="footer__main__header">
+          Transforming your <span>body</span> shape with us
+        </h2>
+        <form class="footer__form" action="#" method="post" novalidate>
+          <h3 class="footer__form__header">
+            Subscribe and learn about new exercises!
+          </h3>
+          <input
+            class="footer__form__input"
+            type="email"
+            formnovalidate=""
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+          <p class="footer__form__message full_hidden"></p>
+          <button class="footer__form__btn" type="submit" disabled>Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__privacy__box">
+      <div class="footer__privacy__container">
+        <p>Your Energy. All rights reserved.</p>
+        <p class="footer__privacy__link__box">
+          <a href="#">Privacy Policy</a><span>/</span
+          ><a href="#">Terms of Service</a><span>/</span
+          ><a href="team.html">Our team</a>
+        </p>
+      </div>
+      <p>&#169;2023</p>
+    </div>
+  </div>
+</footer>
+
+    <button class="scrollup__btn visually-hidden" type="button">
+  <svg class="scrollup__btn__icon" aria-label="Scroll up icon">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-arrow-up"></use>
+  </svg>
+</button>
+
+  </div>
+
+  <div class="backdrop">
+    <div class="authModal__content">
+  <svg class="authModal__button-close x-button">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-cross"></use>
+  </svg>
+  <p class="authForm__title">Registration</p>
+  <form class="authForm" novalidate>
+    <div class="authForm__fieldset username">
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" />
+      <p class="auth-modal__form__message js__auth-modal__name__message hidden">
+        ⚠️ Name must contain at least 3 letters
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required />
+      <p
+        class="auth-modal__form__message js__auth-modal__email__message hidden"
+      >
+        ⚠️ Email has wrong format
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="password"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        autocomplete="xxxxxx"
+      />
+      <p
+        class="auth-modal__form__message js__auth-modal__password__message hidden"
+      >
+        ⚠️ Password must contain at least 6 letters
+      </p>
+    </div>
+
+    <button
+      class="authForm__button-submit"
+      name="regSubmitBtn"
+      type="submit"
+      disabled
+    >
+      Submit
+    </button>
+  </form>
+  <div class="action__container">
+    <p class="action__text">Already have account?</p>
+    <button class="action__button" data-action="reg">Log in</button>
+  </div>
+</div>
+
+  </div>
+
+  
+</body>
+
+</html>

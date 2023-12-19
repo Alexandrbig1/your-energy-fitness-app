@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Your Energy" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your Energy - A feature-rich fitness app for personalized workouts and daily motivation."
+    />
+    <meta
+      name="keywords"
+      content="fitness, workout, exercises, health, wellness, Your Energy"
+    />
+    <meta name="author" content="Seventh Sense Team" />
+
+    <title>Your Energy | Home</title>
+
+    
+    <script type="module" crossorigin src="/your-energy-fitness-app/assets/index-c6faaa53.js"></script>
+    <link rel="modulepreload" crossorigin href="/your-energy-fitness-app/assets/index-6ff01ee8.js">
+    <link rel="modulepreload" crossorigin href="/your-energy-fitness-app/assets/observer-0369b8bc.js">
+    <link rel="modulepreload" crossorigin href="/your-energy-fitness-app/assets/index-11f35aee.js">
+    <link rel="stylesheet" href="/your-energy-fitness-app/assets/index-f552d47c.css">
+    <link rel="stylesheet" href="/your-energy-fitness-app/assets/observer-e5212ee8.css">
+  </head>
+
+  <body>
+    <div class="content-wrapper hide">
+      <div class="backdrop-mobile is-hidden" data-mobile-menu>
+  <div data-mobile-menu-content class="mobile__menu">
+    <div></div>
+    <nav class="mobile__nav">
+      <ul class="mobile__nav__list">
+        <li class="header__nav__item active">
+          <a class="header__nav__link active" id="home" href="./index.html">Home</a>
+        </li>
+        <div class="header__nav-authorized">
+          <li class="header__nav__item">
+            <a class="header__nav__link" id="favorites" href="./favorites.html">Favorites</a>
+          </li>
+          <li class="header__nav__item">
+            <button class="header__logout_btn" type="button">Log out</button>
+          </li>
+        </div>
+        <li data-login-btn class="header__nav__item auth">
+          <button class="header__auth_btn">Log in</button>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="mobile__menu__social__list">
+      <li>
+        <a href="https://www.facebook.com/goITclub/" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Facebook icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/goitclub/" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Instagram icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener noreferrer">
+          <svg class="mobile__menu__social__icon" aria-label="Youtube icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+      <header class="header container">
+  <div class="header-logo-container">
+    <a href="./index.html" aria-label="Your Energy">
+      <span class="logo--visually-hidden">Your Energy</span>
+      <svg class="header-logo" width="132" height="24" aria-label="Your Energy">
+        <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+  </div>
+  <!--Start Desktop Nav -->
+  <nav class="header__nav">
+    <ul class="header__nav__list">
+      <li class="header__nav__item active">
+        <a class="header__nav__link active" id="home" href="./index.html"
+          >Home</a
+        >
+      </li>
+      <div class="header__nav-authorized">
+        <li class="header__nav__item">
+          <a class="header__nav__link" id="favorites" href="./favorites.html"
+            >Favorites</a
+          >
+        </li>
+        <li class="header__nav__item">
+          <button class="header__logout_btn" type="button">Log out</button>
+        </li>
+      </div>
+      <li class="header__nav__item auth">
+        <button class="header__auth_btn">Log in</button>
+      </li>
+    </ul>
+  </nav>
+
+  <ul class="header__social__list">
+    <li>
+      <a
+        href="https://www.facebook.com/goITclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Facebook icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.instagram.com/goitclub/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Instagram icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.youtube.com/c/GoIT"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg class="header__social__icon" aria-label="Youtube icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <div class="toggle-switch">
+        <span>
+          <label class="switch" aria-label="theme switch">
+            <input class="theme-switch" type="checkbox" />
+            <svg class="switch-icon-moon">
+              <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-moon"></use>
+            </svg>
+            <svg class="switch-icon-sun">
+              <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-switcher-sun"></use>
+            </svg>
+          </label>
+        </span>
+      </div>
+    </li>
+  </ul>
+  <!-- End Desktop Nav -->
+  <!-- Start Mobile Nav -->
+  <div id="MobileBTN" data-mobile-menu-btn class="header__mobil__btn">
+    <div class="bar-top"></div>
+    <div class="bar-middle"></div>
+    <div class="bar-bottom"></div>
+  </div>
+</header>
+
+
+      <main>
+        <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__text-wrap">
+      <div class="hero__title-wrap">
+        <!-- <img class="hero__icon" src="/images/hero/sun.svg" alt="icon of sun" /> -->
+        <svg class="hero__icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-sun"></use>
+        </svg>
+        <h1 class="hero__title">
+          Get <span class="hero__title--span">Body</span> in <br />
+          shape, Stay healthy
+        </h1>
+      </div>
+      <p class="subtitle">
+        Transform your physique and embrace a healthier lifestyle with our
+        comprehensive fitness and nutrition support.
+      </p>
+    </div>
+
+    <picture>
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--m-335.avif 335w, /your-energy-fitness-app/images/hero/women--m-670.avif 670w"
+        media="(max-width: 767.98px)"
+        sizes="335px"
+        type="image/avif"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--m-335.webp 335w, /your-energy-fitness-app/images/hero/women--m-670.webp 670w"
+        media="(max-width: 767.98px)"
+        sizes="335px"
+        type="image/webp"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--m-335.jpg 335w, /your-energy-fitness-app/images/hero/women--m-670.jpg 670w"
+        media="(max-width: 767.98px)"
+        sizes="335px"
+        type="image/jpeg"
+      />
+
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--p-704.avif 704w, /your-energy-fitness-app/images/hero/women--p-1408.avif 1408w"
+        media="(min-width: 768px) and (max-width: 1439.98px)"
+        sizes="704px"
+        type="image/avif"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--p-704.webp 704w, /your-energy-fitness-app/images/hero/women--p-1408.webp 1408w"
+        media="(min-width: 768px) and (max-width: 1439.98px)"
+        sizes="704px"
+        type="image/webp"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--p-704.jpg 704w, /your-energy-fitness-app/images/hero/women--p-1408.jpg 1408w"
+        media="(min-width: 768px) and (max-width: 1439.98px)"
+        sizes="704px"
+        type="image/jpeg"
+      />
+
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--d-1376.avif 1376w, /your-energy-fitness-app/images/hero/women--d-2752.avif 2752w"
+        media="(min-width: 1440px)"
+        sizes="1376px"
+        type="image/avif"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--d-1376.webp 1376w, /your-energy-fitness-app/images/hero/women--d-2752.webp 2752w"
+        media="(min-width: 1440px)"
+        sizes="1376px"
+        type="image/webp"
+      />
+      <source
+        srcset="/your-energy-fitness-app/images/hero/women--d-1376.jpg 1376w, /your-energy-fitness-app/images/hero/women--d-2752.jpg 2752w"
+        media="(min-width: 1440px)"
+        sizes="1376px"
+        type="image/jpeg"
+      />
+
+      <img
+        class="hero__img"
+        src="/images/hero/women--m-335.jpg.jpg"
+        alt="Two women doing yoga"
+        width="335"
+        height="460"
+      />
+    </picture>
+
+    <div class="hero__hashtags-wrap">
+      <picture>
+        <source
+          srcset="/your-energy-fitness-app/images/hero/legs--d-168.avif 168w, /your-energy-fitness-app/images/hero/legs--d-336.avif 336w"
+          media="(min-width: 1440px)"
+          sizes="168px"
+          type="image/avif"
+        />
+        <source
+          srcset="/your-energy-fitness-app/images/hero/legs--d-168.webp 168w, /your-energy-fitness-app/images/hero/legs--d-336.webp 336w"
+          media="(min-width: 1440px)"
+          sizes="168px"
+          type="image/webp"
+        />
+        <source
+          srcset="/your-energy-fitness-app/images/hero/legs--d-168.jpg 168w, /your-energy-fitness-app/images/hero/legs--d-336.jpg 336w"
+          media="(min-width: 1440px)"
+          sizes="168px"
+          type="image/jpeg"
+        />
+
+        <img
+          class="hero__hashtags-image"
+          src="/your-energy-fitness-app/images/hero/legs--d-168.jpg"
+          alt="photo of women legs in yoga pose"
+          width="168"
+          height="100"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+
+        <section class="exercises">
+          <div class="container">
+            <section class="filters__section">
+  <div class="filters__container">
+    <h2 class="filters__title">
+      Exercises
+      <span class="filters__category">
+        <div>/</div>
+        Waist
+      </span>
+    </h2>
+    <div class="filters__wrapper">
+      <div class="search__wrapper">
+        <input class="search__input" name="q" placeholder="Search" aria-label="Search through site content" />
+        <button class="search__button" type="button">
+          <svg class="search__icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+            fill="none">
+            <path
+              d="M8.25 14.25C11.5637 14.25 14.25 11.5637 14.25 8.25C14.25 4.93629 11.5637 2.25 8.25 2.25C4.93629 2.25 2.25 4.93629 2.25 8.25C2.25 11.5637 4.93629 14.25 8.25 14.25Z"
+              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M15.7498 15.75L12.4873 12.4875" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+      <ul class="filters__list">
+      </ul>
+    </div>
+  </div>
+</section>
+            <div class="exercises__wrapper">
+              <section class="exercise-cards__section workout-favorite-height">
+  <div class="exercise-cards__container">
+    <ul class="exercise-cards__wrapper js-cards">
+      <p class="exercise-cards__parag-empty">
+        It appears that you haven't added any exercises to your favorites yet.
+        To get started, you can add exercises that you like to your favorites
+        for easier access in the future.
+      </p>
+    </ul>
+    <div class="exercise-cards__guard js-pages"></div>
+  </div>
+</section>
+
+              <aside class="quotes__wrapper">
+  <div class="quotes__container">
+    <div class="quotes__icon_wrapper">
+      <svg class="quotes__logo_icon" aria-label="running icon">
+        <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-running-stick"></use>
+      </svg>
+    </div>
+    <div class="quotes__text_wrapper">
+      <div class="quotes__title_wrapper">
+        <h3 class="quotes__title">Quote of the day</h3>
+        <svg class="quotes__quote_icon" aria-label="quotes-icon">
+          <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-quotes"></use>
+        </svg>
+      </div>
+      <p class="quotes__text" id="daily-quote"></p>
+      <span class="quotes__author" id="quote-author"></span>
+    </div>
+  </div>
+  <div class="quotes__img">
+    <picture>
+      <source media="(min-width: 1440px)" sizes="444px" srcset="/your-energy-fitness-app/images/sidebar/women.avif 444w, /your-energy-fitness-app/images/sidebar/women@2x.avif 888w" type="image/avif" />
+      <source media="(min-width: 1440px)" sizes="444px" srcset="/your-energy-fitness-app/images/sidebar/women.webp 444w, /your-energy-fitness-app/images/sidebar/women@2x.webp 888w" type="image/webp" />
+      <source media="(min-width: 1440px)" sizes="444px" srcset="/your-energy-fitness-app/images/sidebar/women.jpg 444w, /your-energy-fitness-app/images/sidebar/women@2x.jpg 888w" type="image/jpg" />
+      <source media="(min-width: 768px)" sizes="288px" srcset="/your-energy-fitness-app/images/sidebar/women-tab.avif 288w, /your-energy-fitness-app/images/sidebar/women-tab@2x.avif 576w" type="image/avif" />
+      <source media="(min-width: 768px)" sizes="288px" srcset="/your-energy-fitness-app/images/sidebar/women-tab.webp 288w, /your-energy-fitness-app/images/sidebar/women-tab@2x.webp 576w" type="image/webp" />
+      <source media="(min-width: 768px)" sizes="288px" srcset="/your-energy-fitness-app/images/sidebar/women-tab.jpg 288w, /your-energy-fitness-app/images/sidebar/women-tab@2x.jpg 576w" type="image/jpg" />
+      <source media="(max-width: 767.98px)" sizes="335px" srcset="/your-energy-fitness-app/images/sidebar/women-mobile.avif 335w, /your-energy-fitness-app/images/sidebar/women-mobile@2x.avif 670w" type="image/avif" />
+      <source media="(max-width: 767.98px)" sizes="335px" srcset="/your-energy-fitness-app/images/sidebar/women-mobile.webp 335w, /your-energy-fitness-app/images/sidebar/women-mobile@2x.webp 670w" type="image/webp" />
+      <source media="(max-width: 767.98px)" sizes="335px" srcset="/your-energy-fitness-app/images/sidebar/women-mobile.jpg 335w, /your-energy-fitness-app/images/sidebar/women-mobile@2x.jpg 670w" type="image/jpg" />
+      <img class="quotes__img_img" src="/your-energy-fitness-app/images/sidebar/women-mobile.jpg" alt="girls drinking water during workout"
+        width="335" height="242" loading="lazy" />
+    </picture>
+  </div>
+  <div class="quotes__workout_container">
+    <div class="quotes__gym_icon_wrapper">
+      <svg class="quotes__gym_icon" aria-label="running-icon">
+        <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-dumbbell"></use>
+      </svg>
+    </div>
+    <div class="quotes__workout_text_wrapper">
+      <div class="quotes__workout_title_Wrapper">
+        <h3 class="quotes__workout_title">110 min</h3>
+        <span class="quotes__workout_sub">Daily norm of sports</span>
+      </div>
+      <p class="quotes__workout_text">
+        The World Health Organization recommends at least 150 minutes of
+        moderate-intensity aerobic physical activity throughout the week for
+        adults aged 18-64. However, what happens if we adjust that number to 110
+        minutes every day? While it might seem like a high number to hit,
+        dedicating 110 minutes daily to sporting activities may offer
+        unparalleled benefits to physical health, mental well-being, and overall
+        quality of life.
+      </p>
+    </div>
+  </div>
+</aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="page__footer">
+  <div class="container footer__box">
+    <div class="footer__content__box">
+      <div>
+        <a class="footer__logo" href="index.html">
+          <svg class="footer__logo__icon" aria-label="Logo icon">
+            <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+
+        <ul class="footer__social__list">
+          <li>
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Facebook icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Instagram icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer__social__icon" aria-label="Youtube icon">
+                <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_form__box">
+        <h2 class="footer__main__header">
+          Transforming your <span>body</span> shape with us
+        </h2>
+        <form class="footer__form" action="#" method="post" novalidate>
+          <h3 class="footer__form__header">
+            Subscribe and learn about new exercises!
+          </h3>
+          <input
+            class="footer__form__input"
+            type="email"
+            formnovalidate=""
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+          <p class="footer__form__message full_hidden"></p>
+          <button class="footer__form__btn" type="submit" disabled>Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__privacy__box">
+      <div class="footer__privacy__container">
+        <p>Your Energy. All rights reserved.</p>
+        <p class="footer__privacy__link__box">
+          <a href="#">Privacy Policy</a><span>/</span
+          ><a href="#">Terms of Service</a><span>/</span
+          ><a href="team.html">Our team</a>
+        </p>
+      </div>
+      <p>&#169;2023</p>
+    </div>
+  </div>
+</footer>
+
+      <button class="scrollup__btn visually-hidden" type="button">
+  <svg class="scrollup__btn__icon" aria-label="Scroll up icon">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-arrow-up"></use>
+  </svg>
+</button>
+
+      <div class="backdrop">
+        <div class="js-modal modalExercise" style="display: none" id="modal-exercise">
+  <svg class="x-button js-modal-exit">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-cross"></use>
+  </svg>
+  <div class="modalExercise__img-wrapper"></div>
+  <div class="modalExercise__content">
+    <div class="exercise-content"></div>
+    <div class="button-box"></div>
+  </div>
+</div>
+
+        <div class="authModal__content">
+  <svg class="authModal__button-close x-button">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-cross"></use>
+  </svg>
+  <p class="authForm__title">Registration</p>
+  <form class="authForm" novalidate>
+    <div class="authForm__fieldset username">
+      <label for="name"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="name" />
+      <p class="auth-modal__form__message js__auth-modal__name__message hidden">
+        ⚠️ Name must contain at least 3 letters
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required />
+      <p
+        class="auth-modal__form__message js__auth-modal__email__message hidden"
+      >
+        ⚠️ Email has wrong format
+      </p>
+    </div>
+
+    <div class="authForm__fieldset">
+      <label for="password"><b>Password</b></label>
+      <input
+        type="password"
+        placeholder="Enter Password"
+        name="password"
+        autocomplete="xxxxxx"
+      />
+      <p
+        class="auth-modal__form__message js__auth-modal__password__message hidden"
+      >
+        ⚠️ Password must contain at least 6 letters
+      </p>
+    </div>
+
+    <button
+      class="authForm__button-submit"
+      name="regSubmitBtn"
+      type="submit"
+      disabled
+    >
+      Submit
+    </button>
+  </form>
+  <div class="action__container">
+    <p class="action__text">Already have account?</p>
+    <button class="action__button" data-action="reg">Log in</button>
+  </div>
+</div>
+
+        <div class="rating-modal-content">
+  <svg class="rating-close x-button">
+    <use href="/your-energy-fitness-app/images/icons-sprite.svg#icon-cross"></use>
+  </svg>
+  <form class="modal-form">
+    <div class="rating-inputs">
+      <input
+        class="modal-form-email base-input"
+        name="email"
+        type="text"
+        placeholder="Email"
+        formnovalidate=""
+      />
+      <p class="modal-email-validate validate-form-message full_hidden"></p>
+      <textarea
+        rows="3"
+        class="feedback-textarea base-textarea"
+        name="feedback"
+        placeholder="Your feedback"
+      ></textarea>
+    </div>
+    <input
+      class="feedback-submit base-submit"
+      type="submit"
+      value="Send"
+    />
+  </form>
+</div>
+      </div>
+    </div>
+    <div class='loader'>
+  <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="loader__wrap">
+    <div class="wheel"></div>
+    <div class="hamster">
+      <div class="hamster__body">
+        <div class="hamster__head">
+          <div class="hamster__ear"></div>
+          <div class="hamster__eye"></div>
+          <div class="hamster__nose"></div>
+        </div>
+        <div class="hamster__limb hamster__limb--fr"></div>
+        <div class="hamster__limb hamster__limb--fl"></div>
+        <div class="hamster__limb hamster__limb--br"></div>
+        <div class="hamster__limb hamster__limb--bl"></div>
+        <div class="hamster__tail"></div>
+      </div>
+    </div>
+    <div class="spoke"></div>
+  </div>
+</div>
+    
+  </body>
+</html>
