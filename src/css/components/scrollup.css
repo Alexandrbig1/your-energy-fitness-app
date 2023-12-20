@@ -3,7 +3,7 @@
   bottom: 40px;
   right: 40px;
   border-radius: 20px;
-  background-color: var(--background-color);
+  background-color: var(--scroll-up-color);
   font-size: 0px;
   border: 1px solid var(--secondary-white-text-color);
   transition-property: border-color background-color;
@@ -19,13 +19,13 @@
 
 .scrollup__btn:hover,
 .scrollup__btn:focus {
-  border-color: var(--rating-color-active);
+  border-color: var(--scroll-up-hover);
   background-color: var(--primary-black-color);
 }
 
 .scrollup__btn:hover .scrollup__btn__icon,
 .scrollup__btn:focus .scrollup__btn__icon {
-  fill: var(--rating-color-active);
+  fill: var(--scroll-up-hover);
 }
 
 .scrollup__btn__icon {

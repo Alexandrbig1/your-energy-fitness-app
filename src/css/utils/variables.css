@@ -21,6 +21,7 @@
   --modal-black-color: rgba(36, 36, 36, 1);
   --modal-alpha-background: rgba(4, 4, 4, 0.4);
   --rating-color-active: #eea10c;
+  --scroll-up-hover: #eea10c;
   --rating-color-inactive: rgba(244, 244, 244, 0.2);
   --pagination-color-inactive: #d4d4d4;
   --error-color: rgb(255, 0, 0);
@@ -36,6 +37,8 @@
   --modal-background: #242424;
   /* Backdrop */
   --background-color: rgba(18, 20, 23, 0.5);
+  /* Scroll Up btn */
+  --scroll-up-color: rgba(18, 20, 23, 0.5);
 
   /* Transition properties */
   --transition-effect: linear;
@@ -77,6 +80,7 @@ body.dark {
   --black-text-opacity-twenty-color: rgba(244, 244, 244, 0.20);
   --black-gradient-cards: rgba(17, 17, 17, 0.50);
   --rating-color-active: #eea10c;
+  --scroll-up-hover: #ff9900;
   --modal-black-color: rgba(36, 36, 36, 1);
   --modal-alpha-background: rgba(4, 4, 4, 0.6);
   --rating-color-active: #eea10c;
@@ -90,4 +94,7 @@ body.dark {
   --header-background: #1b1b1b;
   --loader-background-color: #3d3d3d;
   --loader-highlight-color: #1b1b1b;
+
+  /* Scroll Up btn */
+  --scroll-up-color: rgba(200, 200, 200, 0.5);
 }
