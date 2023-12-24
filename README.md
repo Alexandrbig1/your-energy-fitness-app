@@ -4,8 +4,8 @@ Welcome to **Your Energy**, your go-to fitness app for a personalized and engagi
 
 <img align="right" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="100"/>
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/commits/main)
-[![GitHub license](https://img.shields.io/github/license/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/goal-craft/blob/main/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/your-energy-fitness-app/commits/main)
+[![GitHub license](https://img.shields.io/github/license/Alexandrbig1/your-energy-fitness-app)](https://github.com/Alexandrbig1/your-energy-fitness-app/blob/main/LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![HTML](https://img.shields.io/badge/HTML5-<!DOCTYPE%20html>-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS3-styles-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
